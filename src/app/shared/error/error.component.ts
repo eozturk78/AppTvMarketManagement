@@ -23,7 +23,7 @@ const listAnimation = trigger('listAnimation', [
 })
 export class ErrorComponent implements OnInit {
 
-  constructor(public base: Bas) {
+  constructor(public base: BaseService) {
   }
 
   ngOnInit(): void {
